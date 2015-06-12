@@ -52,7 +52,7 @@ The root directory of the project.
 
 #### options.dest
 Type: `String`
-Default value: A `use.json` within the directory specified by `options.root`
+Default value: `use.json` in the same directory the Gruntfile is in
 
 Specifies the path that the config file will be output to.
 

@@ -94,14 +94,14 @@ module.exports = function(grunt) {
             }
         }
 
-        // run task
         var done = this.async();
         var mapper = new Automapper();
-        // add in logging
+        // set up logging
         mapper.setLogFunction(function(msg) {
             grunt.verbose.writeln('[use-automapper] ' + msg);
         });
         mapper.enableLogging(); // let grunt verbose flag handle output
+        // run task
         mapper.async.mapFiles(files, args, function(err, filePath) {
             if (err !== null) {
                 done(err);
