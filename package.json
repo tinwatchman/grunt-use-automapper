@@ -14,6 +14,7 @@
   "bugs": {
     "url": "https://github.com/tinwatchman/grunt-use-automapper/issues"
   },
+  "license": "MIT",
   "licenses": [
     {
       "type": "MIT",
@@ -35,10 +36,11 @@
   },
   "dependencies": {
     "grunt": "~0.4.5",
-    "use-automapper": "0.0.1"
+    "use-automapper": "0.0.2"
   },
   "peerDependencies": {
-    "grunt": "~0.4.5"
+    "grunt": "~0.4.5",
+    "use-automapper": "0.0.2"
   },
   "keywords": [
     "gruntplugin",
